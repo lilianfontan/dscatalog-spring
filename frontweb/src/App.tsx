@@ -2,7 +2,9 @@ import './App.css';
 
 function App() {
   return (
-    <h1>Hello DSCatalog</h1>
+    <div className="App">
+      <h1>Hello DSCatalog</h1>
+    </div>
   );
 }
 
