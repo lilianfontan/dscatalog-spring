@@ -20,6 +20,7 @@
 .home-content-container h1 {
   width: 260px;
   font-size: 1em;
+  align-items: left;
   margin-bottom: 15px;
 }
 
