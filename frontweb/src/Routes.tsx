@@ -6,11 +6,12 @@ import Home from "pages/Home";
 import ProductDetails from "pages/ProductDetails";
 
 import { Redirect, Route, Switch } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
+import { Router } from "react-router-dom";
+import history from "util/history";
 
 const Routes = () => {
     return(
-        <BrowserRouter>
+        <Router history={history}>
             <Navbar />
             
             <Switch>
@@ -33,7 +34,7 @@ const Routes = () => {
                 </Route>
             </Switch>
 
-        </BrowserRouter>
+        </Router>
     );
 }
 
